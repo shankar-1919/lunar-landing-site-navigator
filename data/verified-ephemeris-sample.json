@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "source": "JPL Horizons observer-table spot-check; DE441; apparent airless AZ/EL",
+  "sourceUrl": "https://ssd.jpl.nasa.gov/horizons/",
+  "startTime": "2026-11-15T00:00:00Z",
+  "stopTime": "2026-11-15T00:00:00Z",
+  "windowHours": 0,
+  "stepMinutes": 0,
+  "sampleOnly": true,
+  "frameNote": "Horizons reports MEAN_ME (high precision), DE441; terrain is MOON_ME / DE421. Cross-solution orientation residual is not quantified.",
+  "sites": {
+    "site06": {
+      "sun": [{ "time": "2026-11-15T00:00:00Z", "az": 77.225067, "el": 2.571826 }],
+      "earth": [{ "time": "2026-11-15T00:00:00Z", "az": 320.093009, "el": -0.056085 }]
+    },
+    "dm2": {
+      "sun": [{ "time": "2026-11-15T00:00:00Z", "az": 55.894122, "el": 4.961096 }],
+      "earth": [{ "time": "2026-11-15T00:00:00Z", "az": 298.730106, "el": -0.653147 }]
+    }
+  }
+}

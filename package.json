@@ -1,0 +1,14 @@
+{
+  "name": "lunar-landing-site-navigator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A traceable south-pole Sun and Earth visibility comparison using LOLA terrain and JPL Horizons.",
+  "scripts": {
+    "start": "node scripts/build-browser-data.mjs && node server.mjs",
+    "fetch:ephemeris": "node scripts/fetch-horizons.mjs",
+    "pack:ephemeris": "node scripts/pack-horizons.mjs horizons-exports && node scripts/build-browser-data.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
